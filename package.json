@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/pleerock/routing-controllers/issues"
   },
-  "main": "index.js",
+  "main": "build/package/index.js",
   "tags": [
     "express",
     "express.js",
@@ -92,5 +92,5 @@
   "scripts": {
     "test": "cross-env NODE_ENV=test gulp tests"
   },
-  "typings": "index.d.ts"
+  "typings": "build/package/index.d.ts"
 }
